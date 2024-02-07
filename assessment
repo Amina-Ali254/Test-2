@@ -53,10 +53,12 @@ while x <= 31:
 
 # 5. Write a python program using while loop to print all even numbers between 1 and 50.
     
-i = 0
-while i <= 50:
-    print (i)
-    i = i +2
+number = 1
+sum = 0
+while number <= 50:
+    sum += number
+    number += 1
+print("The sum of numbers from 1 to 50 is:", sum)
 
 # 6. Write a python program using For Loop that iterates over a list of numbers and prints out each number.
     
