@@ -1,0 +1,71 @@
+                            # ASSESSMENT 2
+# 1. Write a python program to check if a year is a century year or not using Conditional Statements.
+
+def is_century_year(year):
+    if year % 100 == 0:
+        return True
+    else:
+        return False
+year = int(input("Enter a year: "))
+if is_century_year(year):
+    print(f"{year} is a century year.")
+else:
+    print(f"{year} is not a century year.")
+
+# 2. Write a program to determine if a given number is positive, negative, or zero using Conditional Statements.
+
+def given_number(num):
+    if num > 0:
+        return "Positive"
+    elif num < 0:
+        return "Negative"
+    else:
+        return "Zero"
+number = float(input("Enter a number: "))
+result = given_number(number)
+print(f"The number '{result}'.")
+
+# 3. Write a program for a simple calculator that performs addition, subtraction, multiplication, or division using 
+# Conditional Statements.
+
+y = int(input("Enter number 1: "))
+operator = input("Enter operator (+, -, *, /) ")
+z = int(input("Enter number 2: "))
+if operator == '+':
+    print (y + z)
+elif operator == '-':
+    print (y - z)
+elif operator == '*':
+    print (y * z)
+elif operator == '/':
+    print (y / z)
+else:
+    print('invalid operator')
+
+# 4. Write a Python Program using While Loop that calculates the sum of numbers from 1 to 100.
+
+x = 1
+total = 0
+while x <= 31: 
+    total = total + x
+    print (total)
+    x = x +1
+
+# 5. Write a python program using while loop to print all even numbers between 1 and 50.
+    
+i = 0
+while i <= 50:
+    print (i)
+    i = i +2
+
+# 6. Write a python program using For Loop that iterates over a list of numbers and prints out each number.
+    
+
+
+# 7. Write a Python Program using the For Loop to print the multiplication table of 5.
+
+# 8. Write a Python Program using the For Loop that iterates over a list and checks whether each number is greater than 3.
+
+# 9. Create a python program to print the multiplication tables of different numbers in a range using nested loops.
+
+# 10.Write a python program using nested loops to print a right angled triangle using stars
